@@ -12,8 +12,8 @@
     </ion-nav-bar>
     <ion-content>
         <ion-list>
-            <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-                {{playlist.title}}
+            <ion-item ng-repeat="item in vm.entregas" href="#/app/playlists/{{item.id}}">
+                {{item.cliente}}
             </ion-item>
         </ion-list>
     </ion-content>
